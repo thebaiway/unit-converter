@@ -1,10 +1,126 @@
 :root {
-    --page-purple:  #CCC1FF;
+    --page-purple:  #6943FF;
+    --purple-font: #5A537B;
     --page-white: #FFFFFF;
     --page-background: #1F2937;
     --page-fill: #273549;
+    --page-gray: #F4F4F4; 
+    --page-lightpurple: #aca0e3;
+    --button-color: #3D3D3D;
     
 }
+
+body {
+    background: var(--page-background);
+}
+
+#top-section-div {
+    background: var(--page-purple);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 5px solid var(--page-white);
+    border-bottom: none;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#bottom-section-div {
+    background: var(--page-gray);
+    border: 5px solid var(--page-white);
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--page-white);
+}
+
+#input-el {
+    height: 75px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    background: var(--page-purple);
+    color: var(--page-white);
+    border: 1.5px solid var(--page-lightpurple);
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+#input-el:focus {
+    outline: none !important;
+}
+
+#convert-btn {
+    color: var(--button-color);
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: .7rem;
+}
+
+#convert-btn:hover {
+    color: var(--page-white);
+    background: var(--button-color);
+    cursor: pointer;
+    border: 1px solid var(--page-white);
+}
+
+#convert-btn:active {
+    color: var(--button-color);
+    background: var(--page-white);
+    cursor: pointer;
+    border: 1px solid var(--page-white);
+}
+
+#length-div, #volume-div, #mass-div {
+    background: var(--page-white);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h6 {
+    color: var(--purple-font);
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: .02rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bottom-section-div p {
+ color: var(--button-color);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: .8rem;
+}
+
+
+
 
 @media (min-width: 640px){
 
