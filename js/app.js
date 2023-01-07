@@ -2,9 +2,19 @@ let myUnit = []
 let title = document.getElementById("title")
 let inputEl = document.getElementById("input-el")
 let convertBtn = document.getElementById("convert-btn")
+let lengthHeader = document.getElementById("length-h6")
+let volumeHeader = document.getElementById("volume-h6")
+let massHeader = document.getElementById("mass-h6")
 let length = document.getElementById("length-p")
 let volume = document.getElementById("volume-p")
 let mass = document.getElementById("mass-p")
+
+
+title.textContent = "Metric/Imperial Unit Conversion"
+convertBtn.textContent = "Convert"
+lengthHeader.textContent = "Length (Meter/Feet)"
+volumeHeader.textContent = "Volume (Liters/Gallons)"
+massHeader.textContent = "Mass (Kilograms/Pounds)"
 
 
 convertBtn.addEventListener("click", function () {
