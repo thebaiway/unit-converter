@@ -23,7 +23,7 @@ body {
     width: 60%;
     margin: auto;
     margin-top: 100px;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 60%;
-    padding: 20px;
+    padding: 40px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ body {
     background: var(--page-white);
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -118,31 +118,3 @@ h6 {
  font-family: Arial, Helvetica, sans-serif;
  font-size: .8rem;
 }
-
-
-@media (min-width: 640px){
-
-    
-}
-
-@media (min-width: 640px){
-
- 
- }
- 
- @media (min-width: 768px){
- 
-
- 
- }
- 
- @media (min-width: 1024px){
- 
-
- 
- }
- 
- @media (min-width: 1200px){
- 
- }
-
