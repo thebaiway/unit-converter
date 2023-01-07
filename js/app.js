@@ -1,3 +1,4 @@
+let myUnit = []
 let title = document.getElementById("title")
 let inputEl = document.getElementById("input-el")
 let convertBtn = document.getElementById("convert-btn")
@@ -26,3 +27,13 @@ convertBtn.addEventListener("click", function () {
 
 })
 
+convertBtn.addEventListener("dblclick", function () {
+    inputEl.value = " "
+    myUnit.push(inputEl.value)
+
+    length.innerHTML = " "
+    volume.innerHTML = " "
+    mass.innerHTML = " "
+ 
+
+})
